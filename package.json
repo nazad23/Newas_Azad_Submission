@@ -1,0 +1,17 @@
+{
+  "name": "osano",
+  "version": "1.0.0",
+  "description": "Write a couple automated test cases for Google website to test core functionality of the site",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:all": "npx cypress run",
+    "cypress:spec": "npx cypress run --spec cypress/e2e/home.spec.cy.js"
+  },
+  "keywords": [],
+  "author": "Newas Azad",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}
